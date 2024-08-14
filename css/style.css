@@ -45,6 +45,13 @@ body {
     margin-bottom: 20px;
 }
 
+.content-item {
+    display: none;
+}
+
+.content-item.content-item__active {
+    display: inline-block;
+}
 
 .header {
    max-height: 100v;
@@ -142,6 +149,12 @@ body {
   border: 1px solid #777;
   padding: 50px 55px;
 }
+
+
+.choose__color-btn--active {
+    display: none;
+}
+
 .composition {
     margin-bottom: 180px;
 }
@@ -372,6 +385,8 @@ body {
     .menu__item-btn {
         margin-left: auto;
     }
+
+
     .menu__item-btn button {
        width: 250px; 
     }
